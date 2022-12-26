@@ -62,6 +62,7 @@ nav:
       - Performance and parallelism: guides/perf-and-parallelism.md
       - Phantom types: guides/phantom-types.md
       - Random data: guides/random-data.md
+      - Working with files: guides/files.md
     - Tutorials:
       - tutorials/index.md
       - Getting started: tutorials/getting-started.md
@@ -128,9 +129,5 @@ plugins:
 # ------- https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-contributors
 # TODO try card grids
 # ------- https://squidfunk.github.io/mkdocs-material/reference/grids/#using-card-grids
-# TODO try annotations
-# ------- https://squidfunk.github.io/mkdocs-material/reference/annotations/#using-annotations
-# TODO try page icons
-# ------- https://squidfunk.github.io/mkdocs-material/reference/#setting-the-page-icon
 # TODO try the blog? (*gulp*)
 # ------- https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/

@@ -5,4 +5,4 @@ nav:
     - Reference: reference.md
     - Guides: guides.md
     - Tutorials: tutorials.md
-theme: readthedocs
+theme: material

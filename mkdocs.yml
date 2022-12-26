@@ -10,21 +10,23 @@ nav:
     - Reference:
       - reference/index.md
       - Basic types: reference/basic-types.md
-      - Standard library: reference/stdlib.md
-      - Functions: reference/fns.md
-      - Anonymous functions and holes: reference/anonymous-fns-and-holes.md
-      - Operators: reference/operators.md
-      - Variables: reference/variables.md
-      - Where: reference/where.md
       - Collections: reference/collections.md
       - Characters and strings: reference/chars-and-strings.md
       - Records: reference/records.md
       - Tuples: reference/tuples.md
       - Algebraic data types: reference/adts.md
+      - Functions: reference/fns.md
+      - Anonymous functions and holes: reference/anonymous-fns-and-holes.md
+      - Function overloading: reference/fn-overloading.md
       - Type aliases: reference/type-aliases.md
       - Type annotations: reference/type-annotations.md
+      - Standard library: reference/stdlib.md
+      - Operators: reference/operators.md
+      - Variables: reference/variables.md
+      - Where: reference/where.md
       - Maybe: reference/maybe.md
       - Result: reference/result.md
+      - Dot chaining: reference/dot.md
       - Comments: reference/comments.md
       - If expressions: reference/if.md
       - Case expressions and pattern matching: reference/case.md
@@ -34,6 +36,7 @@ nav:
       - GADTs: reference/gadts.md
     - Principles:
       - principles/index.md
+      - Zen of Cara: principles/zen.md
       - Functional programming: principles/fp.md
       - Immutability: principles/immutability.md
       - Purity and effects: principles/purity-and-effects.md

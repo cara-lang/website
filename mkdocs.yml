@@ -1,8 +1,53 @@
 site_name: Cara
 site_url: https://cara-lang.com/
+site_author: Martin Janiczek (@janiczek)
+site_description: Cara programming language
+repo_url: https://github.com/cara-lang/compiler
+copyright: "Made with 🧡 by Martin Janiczek"
+edit_uri: https://github.com/cara-lang/website/edit/main/docs/
 nav:
     - Welcome: index.md
     - Reference: reference.md
     - Guides: guides.md
     - Tutorials: tutorials.md
-theme: material
+theme: 
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/weather-sunset
+  favicon: assets/images/favicon.png
+  palette:
+    primary: deep orange
+  font:
+    text: Rubik
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes 
+    - navigation.top
+    - search.highlight
+    - search.suggest
+markdown_extensions:
+  - abbr
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - admonition
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/cara-lang/compiler
+      name: Compiler
+    - icon: fontawesome/brands/github
+      link: https://github.com/cara-lang/website
+      name: Website

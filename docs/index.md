@@ -1,13 +1,14 @@
 # Cara
 
-Cara is a programming language aiming to be pleasant to use and maintain while
+:city_sunset: Cara is a programming language aiming to be pleasant to use and maintain while
 staying safe and dependable.
 
-⚠️ _Cara is in development: [@janiczek](https://github.com/Janiczek) is still
-figuring out the design, syntax and functionality. In the meantime, some code
-snippets can be found in the compiler's [end-to-end test
-suite](https://github.com/cara-lang/compiler/tree/main/end-to-end-tests) on
-GitHub._
+!!! warning
+    Cara is in development: [@janiczek](https://github.com/Janiczek) is still
+    figuring out the design, syntax and functionality. In the meantime, some code
+    snippets can be found in the compiler's [end-to-end test
+    suite](https://github.com/cara-lang/compiler/tree/main/end-to-end-tests) on
+    GitHub.
 
 ## Features
 
@@ -26,6 +27,7 @@ Here is an incomplete list of Cara's features:
 * Immutable
 * Purely functional
 * Statically typed with automatic type inference
+* ADTs with exhaustive pattern matching
 
 ## Examples
 

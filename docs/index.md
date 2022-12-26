@@ -78,8 +78,22 @@ IO.inspect!(xs.traverse(f)) // -> Nothing
 IO.inspect!(ys.traverse(f)) // -> Just([6,7,8,9,10])
 ```
 
-## Links
+## Installation
 
-* [GitHub](https://github.com/cara-lang/)
-    * [Compiler](https://github.com/cara-lang/compiler/)
-    * [This website](https://github.com/cara-lang/website/)
+Right now the language tooling is very rough around the edges: if you want to
+try the language out, you'll need to `git clone` the compiler repository and
+build the compiler manually with OCaml:
+
+``` shell title="Building the compiler"
+git clone https://github.com/cara-lang/compiler cara-compiler
+cd cara-compiler
+dune build @all
+
+# compiles to: _build/default/src/compiler.exe
+```
+
+!!! tip
+    The `.ok` files across the Cara repositories are generally a good way to
+    get an idea of how to work with the repositories. (Shout out to
+    [@secretGeek](https://twitter.com/secretGeek)'s
+    [`ok`](https://secretgeek.net/ok) tool!)

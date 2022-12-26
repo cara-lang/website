@@ -1,2 +1,4 @@
+wheel
 mkdocs
 mkdocs-material
+git+https://github.com/cara-lang/pygments-lexer.git

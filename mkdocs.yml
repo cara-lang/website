@@ -61,6 +61,7 @@ nav:
       - Testing: guides/testing.md
       - Performance and parallelism: guides/perf-and-parallelism.md
       - Phantom types: guides/phantom-types.md
+      - Random data: guides/random-data.md
     - Tutorials:
       - tutorials/index.md
       - Getting started: tutorials/getting-started.md

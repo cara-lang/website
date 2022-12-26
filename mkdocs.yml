@@ -1,0 +1,8 @@
+site_name: Cara
+site_url: https://cara-lang.com/
+nav:
+    - Welcome: index.md
+    - Reference: reference.md
+    - Guides: guides.md
+    - Tutorials: tutorials.md
+theme: readthedocs

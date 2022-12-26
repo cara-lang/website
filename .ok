@@ -1,0 +1,3 @@
+venv: source venv/bin/activate 
+dev: mkdocs serve
+build: mkdocs build

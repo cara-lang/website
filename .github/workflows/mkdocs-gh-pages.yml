@@ -33,7 +33,7 @@ jobs:
         uses: shimataro/ssh-key-action@v2
         with:
           key: ${{ secrets.MATERIAL_MKDOCS_INSIDER_KEY }}
-          known_hosts: ""
+          known_hosts: "github.com"
       - run: pip install -r requirements.txt
       - run: mkdocs build
       - name: Upload artifact

@@ -31,7 +31,7 @@ Here is an incomplete list of Cara's features:
 
 ## Examples
 
-```
+``` cara title="quicksort.cara"
 quickSort(List[Int]): List[Int]
 quickSort([]) = []
 quickSort(x::xs) =
@@ -43,7 +43,21 @@ quickSort(x::xs) =
   |> IO.inspect!
 ```
 
+``` cara title="fs_script.cara"
+#!/usr/bin/env cara
+
+dst = IO.ask!("Enter destination filename: ")
+dstHandle = FS.open!(src, IO.Write)
+
+timestampFmt = "hh:mm:ss.fff"
+
+(1..10).each(\i -> 
+  time = Time.now!()
+  dstHandle |> FS.write!("[${Time.format(timestampFmt, time)}] Hello number $i\n")
+)
 ```
+
+``` cara title="fizzbuzz.cara"
 fizzbuzz(n) =
   if n % 15 == 0 then "FizzBuzz"
   else if n % 3 == 0 then "Fizz"
@@ -56,7 +70,7 @@ fizzbuzz(n) =
   |> IO.println!
 ```
 
-```
+``` cara title="maybe_traverse.cara"
 type Maybe[a] =
   | Nothing
   | Just[a]

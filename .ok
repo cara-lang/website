@@ -1,3 +1,3 @@
-venv: source venv/bin/activate 
-dev: mkdocs serve
-build: mkdocs build
+venv:  source venv/bin/activate 
+dev:   ok venv && mkdocs serve
+build: ok venv && mkdocs build

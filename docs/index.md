@@ -116,3 +116,26 @@ dune build @all
     get an idea of how to work with the repositories. (Shout out to
     [@secretGeek](https://twitter.com/secretGeek)'s
     [`ok`](https://secretgeek.net/ok) tool!)
+
+## Contribute
+
+As of Q1 2023, I (1) am still largely trying to design how the language will
+look and behave rather than implementing it.
+{ .annotate }
+
+1. [@janiczek](https://github.com/Janiczek)
+
+If you'd like to discuss it, feel free to open a GitHub
+[issue](https://github.com/cara-lang/compiler/issues) or send me a message on
+[Twitter](https://twitter.com/janiczek) or
+[Mastodon](https://functional.cafe/@janiczek). I do want to keep some creative
+freedom so I won't promise this will be "design by commitee" nor any kind of
+democracy, but I would be very happy to hear your opinions, experience and
+tales from the trenches! (1)
+{ .annotate }
+
+1. _"This will be impossible to parse because XYZ!"_
+
+If you instead want to contribute to the documentation (this website), feel
+free to head over to the [website repo](https://github.com/cara-lang/website)
+and make a PR or an issue!

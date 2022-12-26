@@ -3,3 +3,4 @@ TODO.md
 /venv/
 /site/
 .DS_Store
+/.cache/

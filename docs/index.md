@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Cara
 
 :city_sunset: Cara is a programming language aiming to be pleasant to use and maintain while

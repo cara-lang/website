@@ -6,10 +6,62 @@ repo_url: https://github.com/cara-lang/compiler
 copyright: "Made with 🧡 by Martin Janiczek"
 edit_uri: https://github.com/cara-lang/website/edit/main/docs/
 nav:
-    - Welcome: index.md
-    - Reference: reference.md
-    - Guides: guides.md
-    - Tutorials: tutorials.md
+    - Home: index.md
+    - Reference:
+      - reference/index.md
+      - Basic types: reference/basic-types.md
+      - Standard library: reference/stdlib.md
+      - Functions: reference/fns.md
+      - Anonymous functions and holes: reference/anonymous-fns-and-holes.md
+      - Operators: reference/operators.md
+      - Variables: reference/variables.md
+      - Where: reference/where.md
+      - Collections: reference/collections.md
+      - Characters and strings: reference/chars-and-strings.md
+      - Records: reference/records.md
+      - Tuples: reference/tuples.md
+      - Algebraic data types: reference/adts.md
+      - Type aliases: reference/type-aliases.md
+      - Type annotations: reference/type-annotations.md
+      - Maybe: reference/maybe.md
+      - Result: reference/result.md
+      - Comments: reference/comments.md
+      - If expressions: reference/if.md
+      - Case expressions and pattern matching: reference/case.md
+      - Pattern guards: reference/guards.md
+      - "Effect blocks and ! operator": reference/effect-blocks-and-bang.md
+      - Imports, exports and modules: reference/imports-exports-modules.md
+      - GADTs: reference/gadts.md
+    - Principles:
+      - principles/index.md
+      - Functional programming: principles/fp.md
+      - Immutability: principles/immutability.md
+      - Purity and effects: principles/purity-and-effects.md
+      - Build modules around data structures: principles/build-modules-around-data-structures.md
+      - Make impossible states impossible: principles/make-impossible-states-impossible.md
+      - Common patterns:
+        - principles/common-patterns/index.md
+        - "map: Functor": principles/common-patterns/functor.md
+        - "andMap, map2: Applicative": principles/common-patterns/applicative.md
+        - "orElse: Alternative": principles/common-patterns/alternative.md
+        - "concat: Semigroup": principles/common-patterns/semigroup.md
+        - "empty: Monoid": principles/common-patterns/monoid.md
+        - "andThen, flatMap: Monad": principles/common-patterns/monad.md
+        - "fold, reduce: Foldable": principles/common-patterns/foldable.md
+        - "sequence, traverse: Traversable": principles/common-patterns/traversable.md
+    - Guides:
+      - guides/index.md
+      - Cara for Elm developers: guides/cara-for-elm-devs.md
+      - Cara for Haskell developers: guides/cara-for-hs-devs.md
+      - Cara for JS/Python/Kotlin developers: guides/cara-for-js-py-kt-devs.md
+      - Working with ADTs: guides/adts.md
+      - Testing: guides/testing.md
+      - Performance and parallelism: guides/perf-and-parallelism.md
+      - Phantom types: guides/phantom-types.md
+    - Tutorials:
+      - tutorials/index.md
+      - Getting started: tutorials/getting-started.md
+      - Scripting with Cara: tutorials/scripting.md
 theme: 
   name: material
   icon:
@@ -27,6 +79,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.indexes 
     - navigation.top
+    - navigation.expand
     - search.highlight
     - search.suggest
     - content.code.annotate 

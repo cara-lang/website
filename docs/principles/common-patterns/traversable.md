@@ -1,0 +1,3 @@
+# sequence, traverse: Traversable
+
+TODO

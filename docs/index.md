@@ -56,7 +56,7 @@ quickSort(x::xs) =
 #!/usr/bin/env cara
 
 dst = IO.ask!("Enter destination filename: ")
-dstHandle = FS.open!(src, IO.Write)
+dstHandle = FS.open!(src, FS.Write)
 
 timestampFmt = "hh:mm:ss.fff"
 

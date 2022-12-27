@@ -36,6 +36,10 @@ Here is an incomplete list of Cara's features:
 
 ## Examples
 
+!!! tip
+    There is a large sampling of Cara programs in the [end-to-end test
+    suite](https://github.com/cara-lang/compiler/tree/main/end-to-end-tests).
+
 ``` cara title="quicksort.cara"
 quickSort(List[Int]): List[Int]
 quickSort([]) = []

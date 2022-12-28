@@ -17,12 +17,22 @@ staying safe and dependable.
 
 ## Features
 
-To put it shortly, Cara is a combination of [Elm](https://elm-lang.org),
-[Haskell](https://www.haskell.org) and [Kotlin](https://kotlinlang.org).
+To put it shortly, Cara combines:
 
-Cara very much takes Elm as its starting point, but then adds some advanced
-features like GADTs inspired by Haskell, and in syntax it comes closer to
-Kotlin than to the ML family.
+<div class="grid" markdown>
+
+:simple-elm: __[Elm](https://elm-lang.org)__ and its safety, maintainability and friendliness
+{ .card }
+
+:simple-haskell: __[Haskell](https://www.haskell.org)__ and its brevity and power (in moderation)
+{ .card }
+
+:simple-kotlin: __[Kotlin](https://kotlinlang.org)__ and its familiarity and syntax sugar
+{ .card }
+
+> :material-robot-confused-outline: __[INTERCAL](https://en.wikipedia.org/wiki/INTERCAL)__ and its... just kidding!
+
+</div>
 
 Here is an incomplete list of Cara's features:
 
@@ -31,6 +41,7 @@ Here is an incomplete list of Cara's features:
 * ...or interpreted (handy for scripting)
 * Immutable
 * Purely functional
+* Familiar ALGOL-like syntax
 * Statically typed with automatic type inference
 * ADTs with exhaustive pattern matching
 

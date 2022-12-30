@@ -24,8 +24,8 @@ nav:
       - Operators: reference/operators.md
       - Variables: reference/variables.md
       - Where: reference/where.md
-      - Maybe: reference/maybe.md
-      - Result: reference/result.md
+      - Maybe and Result: reference/maybe-and-result.md
+      - Ranges: reference/ranges.md
       - Dot chaining: reference/dot.md
       - Comments: reference/comments.md
       - If expressions: reference/if.md

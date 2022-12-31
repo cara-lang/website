@@ -1,3 +1,4 @@
 mkdocs
 git+ssh://git@github.com/cara-lang/mkdocs-material-insiders.git
 git+https://github.com/cara-lang/pygments-lexer.git
+mkdocs-minify-plugin

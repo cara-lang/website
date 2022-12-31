@@ -123,6 +123,8 @@ plugins:
       external_links_attr_map:
         target: _blank
       external_links_noopener: true
+  - minify:
+      minify_html: true
 # TODO try links in frontmatter for an automatic "Further reading" section
 # ------- https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/#adding-related-links
 # TODO try document contributors

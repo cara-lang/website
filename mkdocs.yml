@@ -32,6 +32,7 @@ nav:
       - Case expressions and pattern matching: reference/case.md
       - Pattern guards: reference/guards.md
       - "Effect blocks and ! operator": reference/effect-blocks-and-bang.md
+      - Tests: reference/tests.md
       - Imports, exports and modules: reference/imports-exports-modules.md
       - GADTs: reference/gadts.md
     - Principles:
@@ -108,6 +109,9 @@ markdown_extensions:
       guess_lang: true
   - pymdownx.inlinehilite
   - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: false
 extra:
   social:
     - icon: fontawesome/brands/github 

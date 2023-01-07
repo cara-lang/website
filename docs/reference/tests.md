@@ -11,8 +11,6 @@ Regardless of the test type, each test can optionally be named and needs to
 return either `Bool` or `IO[Bool]`. This means you can use the `{...}` and
 `IO {...}` [effect blocks](/reference/effect-blocks-and-bang).
 
-The test expression or the last statement needs to return a `Bool`.
-
 You can put your tests next to your definitions or in an extra file: [both
 testing
 schools](https://softwareengineering.stackexchange.com/questions/166409/tdd-outside-in-vs-inside-out)

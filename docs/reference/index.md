@@ -124,7 +124,7 @@ svg a.todo {
   <rect x="884" y="815" width="416" height="80" rx="6" fill="#0D99FF"/>
   <text><tspan x="928.092" y="869.545">Maybe and Result</tspan></text>
 </a>
-<a href="/reference/statements/" class="todo">
+<a href="/reference/statements-and-blocks/" class="todo">
   <rect x="1668" y="287" width="272" height="128" rx="6" fill="#9747FF"/>
   <text><tspan x="1698.28" y="335.545">Statements </tspan><tspan x="1704.05" y="395.545">and blocks</tspan></text>
 </a>

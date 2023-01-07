@@ -9,7 +9,7 @@ and `cara run` modes.
 
 Regardless of the test type, each test can optionally be named and needs to
 return either `Bool` or `IO[Bool]`. This means you can use the `{...}` and
-`IO {...}` [effect blocks](/reference/effect-blocks-and-bang).
+`IO {...}` [blocks](/reference/statements-and-blocks/).
 
 You can put your tests next to your definitions or in an extra file: [both
 testing

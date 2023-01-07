@@ -25,7 +25,7 @@ nav:
       - Type annotations: reference/type-annotations.md
       - Standard library: reference/stdlib.md
       - Operators: reference/operators.md
-      - Statements and blocks: reference/statements.md
+      - Statements and blocks: reference/statements-and-blocks.md
       - Where: reference/where.md
       - Maybe and Result: reference/maybe-and-result.md
       - Ranges: reference/ranges.md

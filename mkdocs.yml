@@ -11,65 +11,65 @@ nav:
       - reference/index.md
       - Anonymous functions and holes: reference/anonymous-fns-and-holes.md
       - Tests: reference/tests.md
-      - TODO Numbers: reference/numbers.md
-      - TODO Booleans: reference/booleans.md
-      - TODO Characters and strings: reference/chars-and-strings.md
-      - TODO Collections: reference/collections.md
-      - TODO Records: reference/records.md
-      - TODO Tuples: reference/tuples.md
-      - TODO Algebraic data types: reference/adts.md
-      - TODO Functions: reference/fns.md
-      - TODO Function overloading: reference/fn-overloading.md
-      - TODO Type classes: reference/type-classes.md
-      - TODO Type aliases: reference/type-aliases.md
-      - TODO Type annotations: reference/type-annotations.md
-      - TODO Standard library: reference/stdlib.md
-      - TODO Operators: reference/operators.md
-      - TODO Statements and blocks: reference/statements.md
-      - TODO Where: reference/where.md
-      - TODO Maybe and Result: reference/maybe-and-result.md
-      - TODO Ranges: reference/ranges.md
-      - TODO Pipelines: reference/pipelines.md
-      - TODO Dot chaining: reference/dot.md
-      - TODO Comments: reference/comments.md
-      - TODO If expressions: reference/if.md
-      - TODO Case expressions and pattern matching: reference/case.md
-      - TODO Pattern guards: reference/guards.md
-      - TODO Imports, exports and modules: reference/imports-exports-modules.md
-      - TODO GADTs: reference/gadts.md
+      - Numbers: reference/numbers.md
+      - Booleans: reference/booleans.md
+      - Characters and strings: reference/chars-and-strings.md
+      - Collections: reference/collections.md
+      - Records: reference/records.md
+      - Tuples: reference/tuples.md
+      - Algebraic data types: reference/adts.md
+      - Functions: reference/fns.md
+      - Function overloading: reference/fn-overloading.md
+      - Type classes: reference/type-classes.md
+      - Type aliases: reference/type-aliases.md
+      - Type annotations: reference/type-annotations.md
+      - Standard library: reference/stdlib.md
+      - Operators: reference/operators.md
+      - Statements and blocks: reference/statements.md
+      - Where: reference/where.md
+      - Maybe and Result: reference/maybe-and-result.md
+      - Ranges: reference/ranges.md
+      - Pipelines: reference/pipelines.md
+      - Dot chaining: reference/dot.md
+      - Comments: reference/comments.md
+      - If expressions: reference/if.md
+      - Case expressions and pattern matching: reference/case.md
+      - Pattern guards: reference/guards.md
+      - Imports, exports and modules: reference/imports-exports-modules.md
+      - GADTs: reference/gadts.md
     - Principles:
       - principles/index.md
-      - TODO Zen of Cara: principles/zen.md
-      - TODO Functional programming: principles/fp.md
-      - TODO Immutability: principles/immutability.md
-      - TODO Purity and effects: principles/purity-and-effects.md
-      - TODO Build modules around data structures: principles/build-modules-around-data-structures.md
-      - TODO Make impossible states impossible: principles/make-impossible-states-impossible.md
-      - TODO Common patterns:
+      - Zen of Cara: principles/zen.md
+      - Functional programming: principles/fp.md
+      - Immutability: principles/immutability.md
+      - Purity and effects: principles/purity-and-effects.md
+      - Build modules around data structures: principles/build-modules-around-data-structures.md
+      - Make impossible states impossible: principles/make-impossible-states-impossible.md
+      - Common patterns:
         - principles/common-patterns/index.md
-        - "TODO map: Functor": principles/common-patterns/functor.md
-        - "TODO andMap, map2: Applicative": principles/common-patterns/applicative.md
-        - "TODO orElse: Alternative": principles/common-patterns/alternative.md
-        - "TODO concat: Semigroup": principles/common-patterns/semigroup.md
-        - "TODO empty: Monoid": principles/common-patterns/monoid.md
-        - "TODO andThen, flatMap: Monad": principles/common-patterns/monad.md
-        - "TODO fold, reduce: Foldable": principles/common-patterns/foldable.md
-        - "TODO sequence, traverse: Traversable": principles/common-patterns/traversable.md
+        - "map: Functor": principles/common-patterns/functor.md
+        - "andMap, map2: Applicative": principles/common-patterns/applicative.md
+        - "orElse: Alternative": principles/common-patterns/alternative.md
+        - "concat: Semigroup": principles/common-patterns/semigroup.md
+        - "empty: Monoid": principles/common-patterns/monoid.md
+        - "andThen, flatMap: Monad": principles/common-patterns/monad.md
+        - "fold, reduce: Foldable": principles/common-patterns/foldable.md
+        - "sequence, traverse: Traversable": principles/common-patterns/traversable.md
     - Guides:
       - guides/index.md
-      - TODO Cara for Elm developers: guides/cara-for-elm-devs.md
-      - TODO Cara for Haskell developers: guides/cara-for-hs-devs.md
-      - TODO Cara for JS/Python/Kotlin developers: guides/cara-for-js-py-kt-devs.md
-      - TODO Working with ADTs: guides/adts.md
-      - TODO Testing: guides/testing.md
-      - TODO Performance and parallelism: guides/perf-and-parallelism.md
-      - TODO Phantom types: guides/phantom-types.md
-      - TODO Random data: guides/random-data.md
-      - TODO Working with files: guides/files.md
+      - Cara for Elm developers: guides/cara-for-elm-devs.md
+      - Cara for Haskell developers: guides/cara-for-hs-devs.md
+      - Cara for JS/Python/Kotlin developers: guides/cara-for-js-py-kt-devs.md
+      - Working with ADTs: guides/adts.md
+      - Testing: guides/testing.md
+      - Performance and parallelism: guides/perf-and-parallelism.md
+      - Phantom types: guides/phantom-types.md
+      - Random data: guides/random-data.md
+      - Working with files: guides/files.md
     - Tutorials:
       - tutorials/index.md
-      - TODO Getting started: tutorials/getting-started.md
-      - TODO Scripting with Cara: tutorials/scripting.md
+      - Getting started: tutorials/getting-started.md
+      - Scripting with Cara: tutorials/scripting.md
 theme: 
   name: material
   icon:

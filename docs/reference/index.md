@@ -33,7 +33,7 @@ svg a.todo {
 <rect x="32" y="302" width="160" height="80" rx="6" fill="#14AE5C"/>
 <text><tspan x="59.2678" y="356.545">Other</tspan></text>
 <rect x="0.5" y="80.5" width="223" height="335" rx="11.5" stroke="#BDE3FF"/>
-<a href="/reference/numbers/" class="todo">
+<a href="/reference/numbers/">
   <rect x="404" y="270" width="224" height="80" rx="6" fill="#0D99FF"/>
   <text><tspan x="431.472" y="324.545">Numbers</tspan></text>
 </a>

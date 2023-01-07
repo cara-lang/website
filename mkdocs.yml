@@ -93,10 +93,6 @@ theme:
     - content.code.annotate 
     - content.tooltips
 markdown_extensions:
-  - abbr
-  - pymdownx.snippets:
-      auto_append:
-        - includes/abbreviations.md
   - admonition
   - footnotes
   - md_in_html

@@ -28,7 +28,6 @@ nav:
       - Statements and blocks: reference/statements-and-blocks.md
       - Where: reference/where.md
       - Maybe and Result: reference/maybe-and-result.md
-      - Ranges: reference/ranges.md
       - Pipelines: reference/pipelines.md
       - Dot chaining: reference/dot.md
       - Comments: reference/comments.md

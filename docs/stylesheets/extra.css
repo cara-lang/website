@@ -1,0 +1,9 @@
+:root > * {
+   --md-code-hl-comment-color: #00000060;
+}
+
+
+.highlight .c1,
+.highlight .cm {
+  font-style: italic;
+}

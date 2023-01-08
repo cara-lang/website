@@ -118,6 +118,8 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/cara-lang/website
       name: Website
+extra_css:
+  - stylesheets/extra.css
 plugins:
   - search
   - typeset

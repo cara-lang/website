@@ -132,7 +132,7 @@ svg a.todo {
   <rect x="1724" y="479" width="160" height="80" rx="6" fill="#9747FF"/>
   <text><tspan x="1743.42" y="533.545">Where</tspan></text>
 </a>
-<a href="/reference/pipelines/" class="todo">
+<a href="/reference/pipelines/">
   <rect x="2024" y="287" width="224" height="80" rx="6" fill="#9747FF"/>
   <text><tspan x="2053.29" y="341.545">Pipelines</tspan></text>
 </a>

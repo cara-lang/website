@@ -79,3 +79,25 @@ findAnswerEasily(123)
    path if needed.
 */
 ```
+
+## Blocks
+
+Anonymous functions can be combined with
+[blocks](/reference/statements-and-blocks/):
+
+``` cara title="Blocks"
+usingPureBlock = \x -> {
+  dec = x - 1
+  inc = x + 1
+  (dec,inc)
+}
+
+usingPureBlock(5) // -> (4,6)
+
+usingIoBlock = \name -> IO {
+  input = IO.ask!("Say something: ")
+  "$name says: $input"
+}
+
+usingIoBlock!("Martin") // -> "Martin says: Hello!"
+```

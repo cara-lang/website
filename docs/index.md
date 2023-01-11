@@ -54,9 +54,10 @@ Here is an incomplete list of Cara's features:
 ``` cara title="quicksort.cara"
 quickSort(List[Int]): List[Int]
 quickSort([]) = []
-quickSort(x::xs) =
+quickSort(x::xs) = {
   (lt, gt) = List.partition(#(x >= _), xs)
   quickSort(lt) ++ x ++ quickSort(gt)
+}
 
 [3,1,2,5,4]
   |> quickSort

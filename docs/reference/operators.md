@@ -83,8 +83,8 @@ type alias XY = (Int, Int)
 ```
 
 ``` cara title="Overloading example: Routing DSL"
-type Route
-  = Root
+type Route =
+  | Root
   | Nest(Route,String)
 
 `/`(r: Route, s: String): Route = Nest(r,s)

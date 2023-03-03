@@ -54,14 +54,14 @@ Here is an incomplete list of Cara's features:
 ``` cara title="quicksort.cara"
 quickSort(List[Int]): List[Int]
 quickSort([]) = []
-quickSort(x::xs) = {
+quickSort([x,...xs]) = {
   (lt, gt) = List.partition(#(x >= _), xs)
   quickSort(lt) ++ x ++ quickSort(gt)
 }
 
-[3,1,2,5,4]
+[5,1,3,2,4]
   |> quickSort
-  |> IO.inspect!
+  |> IO.println!
 ```
 
 ``` cara title="fs_script.cara"
@@ -72,10 +72,10 @@ dstHandle = FS.open!(src, FS.Write)
 
 timestampFmt = "hh:mm:ss.fff"
 
-(1..10).each(\i -> 
+1..10 |> IO.forEach!(\i -> IO {
   time = Time.now!()
   dstHandle |> FS.write!("[${Time.format(timestampFmt, time)}] Hello number $i\n")
-)
+})
 ```
 
 ``` cara title="fizzbuzz.cara"
@@ -94,7 +94,7 @@ fizzbuzz(n) =
 ``` cara title="maybe_traverse.cara"
 type Maybe[a] =
   | Nothing
-  | Just[a]
+  | Just(a)
 
 traverse(fn: a -> Maybe[b], list: List[a]): Maybe[List[b]]
 traverse(fn,list) = go(list,[])
@@ -109,8 +109,8 @@ xs = [1,2,3,4,5]
 ys = [6,7,8,9,10]
 f = \n -> if n == 3 then Nothing else Just(n)
 
-IO.inspect!(xs.traverse(f)) // -> Nothing
-IO.inspect!(ys.traverse(f)) // -> Just([6,7,8,9,10])
+IO.println!(xs.traverse(f)) // -> Nothing
+IO.println!(ys.traverse(f)) // -> Just([6,7,8,9,10])
 ```
 
 ## Installation

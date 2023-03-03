@@ -116,15 +116,17 @@ IO.inspect!(ys.traverse(f)) // -> Just([6,7,8,9,10])
 ## Installation
 
 Right now the language tooling is very rough around the edges: if you want to
-try the language out, you'll need to `git clone` the compiler repository and
-build the compiler manually with OCaml:
+try the language out, you'll need to `git clone` the compiler repository.
+
+You'll need [Deno](https://deno.land/) to run the compiler.
 
 ``` shell title="Building the compiler"
 git clone https://github.com/cara-lang/compiler cara-compiler
 cd cara-compiler
-dune build @all
 
-# compiles to: _build/default/src/compiler.exe
+./run.ts end-to-end-tests/int/main.cara
+./debug.ts end-to-end-tests/int/main.cara
+./test.ts
 ```
 
 !!! tip

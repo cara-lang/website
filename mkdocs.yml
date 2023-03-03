@@ -3,7 +3,7 @@ site_url: https://cara-lang.com/
 site_author: Martin Janiczek (@janiczek)
 site_description: Cara programming language
 repo_url: https://github.com/cara-lang/compiler
-copyright: "Made with 🧡 by Martin Janiczek"
+copyright: Made with 🧡 by <u><a href="https://github.com/janiczek">Martin Janiczek</a></u>
 edit_uri: https://github.com/cara-lang/website/edit/main/docs/
 nav:
     - Home: index.md

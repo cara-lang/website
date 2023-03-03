@@ -120,7 +120,7 @@ try the language out, you'll need to `git clone` the compiler repository.
 
 You'll need [Deno](https://deno.land/) to run the compiler.
 
-``` shell title="Building the compiler"
+``` shell title="Running the compiler"
 git clone https://github.com/cara-lang/compiler cara-compiler
 cd cara-compiler
 

@@ -109,8 +109,8 @@ xs = [1,2,3,4,5]
 ys = [6,7,8,9,10]
 f = \n -> if n == 3 then Nothing else Just(n)
 
-IO.println!(xs.traverse(f)) // -> Nothing
-IO.println!(ys.traverse(f)) // -> Just([6,7,8,9,10])
+IO.println!(xs |> traverse(f)) // -> Nothing
+IO.println!(ys |> traverse(f)) // -> Just([6,7,8,9,10])
 ```
 
 ## Installation
